@@ -2,7 +2,7 @@
 //  BeneficiariesUITests.swift
 //  BeneficiariesUITests
 //
-//  Created by admin on 10/25/22.
+//  Created by Khateeb Hussain on 10/25/22.
 //
 
 import XCTest

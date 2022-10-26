@@ -2,7 +2,7 @@
 //  SceneDelegate.swift
 //  Beneficiaries
 //
-//  Created by admin on 10/25/22.
+//  Created by Khateeb Hussain on 10/25/22.
 //
 
 import UIKit
