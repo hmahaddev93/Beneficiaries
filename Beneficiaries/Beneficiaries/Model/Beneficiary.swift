@@ -59,16 +59,12 @@ enum DesignationCode: String, Codable {
     case unknown
     
     init(from decoder: Decoder) throws {
-        // 1
         let container = try decoder.singleValueContainer()
-        // 2
         let rawString = try container.decode(String.self)
         
-        // 3
         if let designationCode = DesignationCode(rawValue: rawString) {
             self = designationCode
         } else {
-            // 4
             self = .unknown
             throw DecodingError.dataCorruptedError(in: container, debugDescription: "Cannot initialize from invalid String value \(rawString)")
         }
